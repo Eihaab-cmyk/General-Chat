@@ -21,9 +21,6 @@ This is a real-time chat application built using React for the frontend and Node
 - Express.js
 - Stream Chat API
 
-### Database
-- MongoDB (or any database supported by Stream Chat API)
-
 ## Prerequisites
 
 Before running the project, ensure you have the following installed:
@@ -35,7 +32,7 @@ Before running the project, ensure you have the following installed:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/chat-app.git
+   git clone https://github.com/Eihaab-cmyk/General-Chat.git
    cd chat-app
    ```
 
@@ -70,7 +67,7 @@ Before running the project, ensure you have the following installed:
 
 2. Start the backend server:
    ```bash
-   npm start
+   npm run dev
    ```
 
 ### Start the Frontend
@@ -89,31 +86,6 @@ Before running the project, ensure you have the following installed:
    ```
    http://localhost:3000
    ```
-
-## Folder Structure
-
-```
-chat-app/
-├── client/       # Frontend code
-│   ├── public/   # Static files
-│   ├── src/      # React components and assets
-├── server/       # Backend code
-│   ├── controllers/ # API controllers
-│   ├── routes/      # API routes
-├── .gitignore    # Git ignore file
-├── package.json  # Project metadata
-├── README.md     # Project documentation
-```
-
-## Commands
-
-### Install Dependencies
-- Frontend: `npm install` (inside `client` folder)
-- Backend: `npm install` (inside `server` folder)
-
-### Run the Application
-- Frontend: `npm start` (inside `client` folder)
-- Backend: `npm start` (inside `server` folder)
 
 ## License
 
